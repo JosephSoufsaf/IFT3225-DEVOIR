@@ -22,7 +22,7 @@ const observationsSchema = new mongoose.Schema({
         type:Date,
         required:true
     },
-    deviceID:{
+    deviceId:{
         type: mongoose.Schema.Types.ObjectId,
         required:true
     }

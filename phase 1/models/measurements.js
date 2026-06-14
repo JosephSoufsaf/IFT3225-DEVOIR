@@ -15,13 +15,13 @@ const measurementsSchema = new mongoose.Schema({
     },
     location:{
         type:String,
-        required:true
+        required:true   
     },
     timestamp:{
         type:Date,
         required:true
     },
-    deviceID:{
+    deviceId:{
         type: mongoose.Schema.Types.ObjectId,
         required:true
     }

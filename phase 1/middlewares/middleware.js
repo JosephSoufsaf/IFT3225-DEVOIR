@@ -1,4 +1,4 @@
-const Device = require('../models/Device');
+const Device = require('../models/device');
 
 async function auth(req, res, next) {
     const apiKey = req.headers['x-api-key']
